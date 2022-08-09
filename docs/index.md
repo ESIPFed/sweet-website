@@ -1,15 +1,16 @@
-# SWEET Ontologies
+## SWEET Ontologies
 
 [![Chat on Slack](https://img.shields.io/badge/chat-on%20slack-ff69b4.svg)](https://esip-all.slack.com/) on channel #sweetontology
 
 <img src="https://www.esipfed.org/wp-content/uploads/2016/12/ESIP-final-logo.png" align="right" width="300" />
 
-# Introduction
+## Introduction
 Official repository for Semantic Web for Earth and Environmental Terminology (SWEET) Ontologies.
 
-## Accessing SWEET (base ontology)
+#### Accessing SWEET (base ontology)
 This table provides links to access the base SWEET ontology, which contains import directives to bring in all the other ontologies.
 If you want to browse the entire content SWEET, see the next section below.
+
 <table>
   <tbody>
     <tr>
@@ -25,7 +26,7 @@ If you want to browse the entire content SWEET, see the next section below.
   </tbody>
 </table>
 
-## Accessing SWEET (all content)
+#### Accessing SWEET (all content)
 To View all SWEET content, you either need to open the base ontology in an ontology tool like Protégé or TopBraid,
 or you can view the contents in an ontology browser like BioPortal. Links for the latter are provided in the following table.
 
@@ -43,30 +44,30 @@ Since Protégé uses Java 8 (for at least a few more months), it will not automa
   </tbody>
 </table>
 
-# What is SWEET?
+## What is SWEET?
 SWEET is a highly modular ontology suite with ~6000 concepts in ~200 separate ontologies covering Earth system science. SWEET is a mid-level ontology and consists of nine top-level concepts that can be used as a foundation for domain-specific ontologies that extend these top-level SWEET components. SWEET’s own domain-specific ontologies, which extend the upper level ontologies, can provide users interested in further developing a particular domain with a solid set of concepts to get started. SWEET ontologies are written in [W3C Turtle](https://www.w3.org/TR/turtle/); the Terse RDF Triple Language.
 
-# SWEET as Linked Data
+## SWEET as Linked Data
 Details of how HTTP requests against http://sweetontology.net are processed can be found [here](https://github.com/ESIPFed/sweet/wiki/sweetontology.net).
 
-# SWEET IRI Patterns for Ontologies and their Terms
+## SWEET IRI Patterns for Ontologies and their Terms
 See the relevant [wiki documentation](https://github.com/ESIPFed/sweet/wiki/SWEET-IRI-Patterns-for-Ontologies-and-their-Terms).
 
-# Community
+## Community
 SWEET is governed by the [ESIP Semantic Technologies Committee](http://wiki.esipfed.org/index.php/Semantic_Technologies) (STC) meaning that all proposed changes are evaluated by a number of subject matter experts. If you would like to learn more about SWEET, or are interested in joining the community, please join our [community mailing list](https://lists.esipfed.org/mailman/listinfo/esip-semantictech).
 
-# Recognition of SWEET Contributors
+## Recognition of SWEET Contributors
 [Ensure you are recognized for your contributions](https://github.com/ESIPFed/sweet/wiki/Recognition-of-SWEET-Contributors).
 
-# Development
+## Development
 Please see the [CONTRIBUTING documentation](https://github.com/ESIPFed/sweet/blob/master/CONTRIBUTING.md).
 
 Additionally, if you wish to discuss SWEET issues with the STC, please contact us via the [WG email list](http://lists.esipfed.org/mailman/listinfo/esip-semantictech).
 
-# Using local copies of ontology
+## Using local copies of ontology
 The sweetall.ttl ontology imports all the other sweet components via URL. If you are offline, or working on updates that require using the local copies of the ontology files, copy the catalog-v001.xml file from the root directory of the repository into the src directory before opening sweetAll.ttl in Protege.
 
-# License/Copyright
+## License/Copyright
 SWEET is available under the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 <p xmlns:dcterms="http://purl.org/dc/terms/">
   <a rel="license"
