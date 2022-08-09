@@ -1,0 +1,7 @@
+site_name: SWEET ontology test website
+theme: 'cinder'
+repo_url: https://esipfed.github.io/sweet-website/
+site_description: 'SWEET ontology test home page'
+dev_addr: '127.0.0.1:8080'
+nav:
+  - SWEET: 'index.md'
